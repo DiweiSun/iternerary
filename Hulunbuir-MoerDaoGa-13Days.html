@@ -34,6 +34,9 @@
         .timeline-table th, .timeline-table td { padding: 8px 14px; border: 1px solid #ddd; }
         .timeline-table th { background: #2b6cb0; color: white; }
         .timeline-table .hl { background: #fffaf0; font-weight: bold; }
+        .t-sight { color: #c53030; font-weight: bold; white-space: nowrap; }
+        .t-view  { color: #2b6cb0; font-weight: bold; white-space: nowrap; }
+        .t-road  { color: #2f855a; font-weight: bold; white-space: nowrap; }
     </style>
 </head>
 <body>
@@ -222,91 +225,173 @@
     </div>
 
 
-    <h2>门票 · 自驾 · 导航点</h2>
+    <h2>景点分类 · 门票 · 时长</h2>
+    <div class="note-box">
+        <strong>图例：</strong>
+        <span class="t-sight">🎫 景区</span>＝需门票、有大门、要专门安排时间　·　
+        <span class="t-view">📍 观景台/打卡点</span>＝导航可达，停车看景，免费或小额　·　
+        <span class="t-road">🛣️ 路边随停</span>＝沿途风景，不必专门安排
+    </div>
+
     <div class="warn-box">
         <strong>⚠️ 阿尔山必须提前实名预约，且国庆常满。</strong>
-        景区每日限流约 1.2 万人，需提前 1–3 天在「阿尔山旅游」微信公众号预约。
-        你的 10.3–10.4 正在国庆高峰，<strong>务必在预约窗口一开就抢</strong>；若显示约满，可于 17:00 后刷退票。
+        每日限流约 1.2 万人，需提前 1–3 天在「阿尔山旅游」微信公众号预约。
+        你的 10.3–10.4 正撞国庆高峰，<strong>预约窗口一开就抢</strong>；若约满，可 17:00 后刷退票。
         <br><strong>住景区内 ≠ 已预约门票，这是两件事。</strong>
     </div>
+
     <table class="itinerary-table">
-        <tr><th>景点</th><th>日期</th><th>门票（参考价）</th><th>能否自驾</th><th>导航点 / 备注</th></tr>
+        <tr><th>日期</th><th>景点</th><th>类型</th><th>门票（参考）</th><th>玩多久</th><th>自驾 / 备注</th></tr>
+
         <tr class="peak-highlight">
-            <td><strong>莫尔道嘎国家森林公园</strong></td><td>9.26</td>
-            <td><strong>100 元/人</strong></td>
-            <td><strong>✅ 必须自驾</strong><br>景区内<u>无区间车</u></td>
-            <td>导航「莫尔道嘎国家森林公园」。镇上包车约 600 元/车/日。
-                <strong>景区季节性开放，一般 5 月至十一假期结束后关闭</strong>——9.26 无碍。</td>
+            <td rowspan="2">9.26</td>
+            <td>沿途林区秋色（海拉尔→根河→莫尔道嘎）</td>
+            <td class="t-road">🛣️ 路边随停</td><td>—</td><td>随走随停</td>
+            <td>本日以赶路为主，6:00 出发</td>
         </tr>
         <tr class="peak-highlight">
-            <td><strong>白鹿岛</strong></td><td>9.27</td>
-            <td>资料有冲突，见右</td>
-            <td>✅ 自驾（林区路）</td>
-            <td>过森林公园约 5 km 见路牌右转，再行约 85 km。
-                <strong>⚠️ 两处资料矛盾：</strong>一说「不在森林公园内、免费」，
-                另一说「园区门口到白鹿岛一百多公里」（暗示在收费范围内）。
-                <strong>是否另需门票、路况与是否开放，务必到莫尔道嘎当地再确认。</strong></td>
+            <td><strong>莫尔道嘎国家森林公园</strong></td>
+            <td class="t-sight">🎫 景区</td><td><strong>100 元/人</strong></td><td><strong>约 4 h</strong></td>
+            <td><strong>✅ 必须自驾</strong>（园内<u>无区间车</u>）。镇上包车约 600 元/车/日。
+                导航「莫尔道嘎国家森林公园」。<strong>季节性开放，一般十一假期后关闭。</strong></td>
+        </tr>
+
+        <tr class="peak-highlight">
+            <td>9.27</td>
+            <td><strong>白鹿岛</strong></td>
+            <td class="t-view">📍 观景台</td><td>⚠️ 资料矛盾</td><td><strong>整日</strong><br>车程往返 4–5 h<br>+ 停留 1–2 h</td>
+            <td>✅ 自驾（林区路）。过森林公园约 5 km 见路牌右转，再行约 85 km。
+                <strong>⚠️ 一说「不在园内、免费」，另一说「园门口到白鹿岛逾百公里」（暗示在收费范围内）。
+                是否另需票、路况、是否开放，到莫尔道嘎当地确认。</strong></td>
+        </tr>
+
+        <tr>
+            <td>9.28</td>
+            <td>敖鲁古雅使鹿部落</td>
+            <td class="t-sight">🎫 景区</td><td>约 105 元起<br>含观光车约 118 元起</td><td><strong>约 2 h</strong></td>
+            <td>根河市附近。驯鹿、鄂温克文化。</td>
+        </tr>
+
+        <tr>
+            <td>9.29</td>
+            <td>额尔古纳湿地</td>
+            <td class="t-sight">🎫 景区</td><td><strong>价格未查到</strong></td><td><strong>1.5–2 h</strong></td>
+            <td>额尔古纳市拉布大林。下午光线好。</td>
+        </tr>
+
+        <tr>
+            <td rowspan="5">9.30</td>
+            <td><strong>白桦林景区</strong></td>
+            <td class="t-sight">🎫 景区</td><td>价格未查到</td><td><strong>1.5–2 h</strong></td>
+            <td>额尔古纳市 201 省道，AAAA。<strong>开放 9:00–21:00（20:00 停止入园）</strong>。
+                有彩虹玻璃栈道、驯鹿苑。距额尔古纳约 42 km。</td>
         </tr>
         <tr>
-            <td>敖鲁古雅使鹿部落</td><td>9.28</td>
-            <td>约 <strong>105 元</strong>起<br>含观光车约 118 元起</td>
-            <td>—</td>
-            <td>根河市附近。游玩约 2 小时。</td>
+            <td><strong>恩和俄罗斯族民族乡</strong></td>
+            <td class="t-road">🛣️ 路边随停</td><td><strong>免费</strong></td><td><strong>约 1 h</strong></td>
+            <td>全天开放。俄式木屋、小镇风情。距白桦林约 58 km。</td>
         </tr>
         <tr>
-            <td>额尔古纳湿地</td><td>9.29</td>
-            <td><strong>未查到确切价格</strong><br>需门票</td>
-            <td>—</td>
-            <td>额尔古纳市拉布大林。下午光线适合拍照。<strong>价格请现场或官方渠道确认。</strong></td>
+            <td>室韦 · 木刻楞</td>
+            <td class="t-road">🛣️ 路边随停</td><td>小镇无票</td><td><strong>1 h</strong></td>
+            <td>中国十大魅力名镇，额尔古纳河南岸。</td>
         </tr>
         <tr>
-            <td>室韦</td><td>9.30</td>
-            <td>小镇本身无票</td>
-            <td>✅ 自驾</td>
-            <td>额尔古纳市室韦俄罗斯族民族乡。木刻楞、江边日落。</td>
+            <td>界河边防巡逻艇（可选）</td>
+            <td class="t-sight">🎫 需购票</td><td><strong>75 元/人</strong></td><td><strong>约 40 min</strong></td>
+            <td>游中俄界河额尔古纳河。</td>
+        </tr>
+        <tr>
+            <td>江边日落</td>
+            <td class="t-view">📍 观景点</td><td>免费</td><td><strong>1 h</strong></td>
+            <td>对岸即俄罗斯村庄。<strong>日落约 18:00，别错过。</strong></td>
+        </tr>
+
+        <tr class="card-line-highlight">
+            <td rowspan="3">10.1</td>
+            <td><strong>卡线公路 九卡·八卡·七卡</strong></td>
+            <td class="t-road">🛣️ 沿途随停</td><td><strong>免费</strong></td><td><strong>全天路线</strong></td>
+            <td>✅ 自驾。X904 县道沿额尔古纳河。部分砂石路、弯多，建议 SUV。
+                <strong>边防证随身，严禁越界</strong>，只在观景台或安全地带停车。
+                室韦满油、带足水和干粮，沿途加油站与餐厅极少。</td>
         </tr>
         <tr class="card-line-highlight">
-            <td>卡线公路（九卡·八卡·七卡）</td><td>10.1</td>
-            <td>免费</td>
-            <td>✅ 自驾（部分砂石路）</td>
-            <td>X904 县道，室韦→黑山头沿额尔古纳河。<strong>边防证随身，严禁越界</strong>，
-                只在观景台或安全地带停车。</td>
+            <td>乌兰山太极湾</td>
+            <td class="t-view">📍 观景台</td><td>免费（可选）</td><td><strong>30–40 min</strong></td>
+            <td>俯瞰额尔古纳河 S 弯。</td>
+        </tr>
+        <tr class="card-line-highlight">
+            <td>黑山头日落山</td>
+            <td class="t-view">📍 观景点</td><td>免费</td><td><strong>1 h</strong></td>
+            <td>看草原日落。黑山头另有古城遗址（无标识，不好找）。</td>
+        </tr>
+
+        <tr>
+            <td rowspan="3">10.2</td>
+            <td><strong>186 彩带河</strong></td>
+            <td class="t-view">📍 观景台</td><td>门票信息未查到</td><td><strong>约 1 h</strong></td>
+            <td><strong>陈巴尔虎旗边防公路 186 界碑处，距黑山头约 46 km、距满洲里约 110 km。</strong>
+                典型湿地景观，可望对岸俄罗斯。
+                <strong>开放 5.1–10.20，7:30–19:30</strong>（10.2 在窗口内 ✅）。
+                <u>注意：走边防公路才经过，绕海拉尔则错过 —— 见下方路线说明。</u></td>
         </tr>
         <tr>
-            <td>满洲里国门景区</td><td>10.2</td>
-            <td><strong>80 元</strong></td><td>—</td>
-            <td rowspan="2">满洲里市区。两个景区半天可逛完。
-                1.2 m 以下儿童、70 周岁以上老人、残疾人免票；
-                1.2–1.5 m 儿童、65–69 岁老人、学生、现役军人等半价。</td>
+            <td>满洲里国门景区</td>
+            <td class="t-sight">🎫 景区</td><td><strong>80 元</strong></td><td rowspan="2"><strong>两处合计半天</strong></td>
+            <td rowspan="2">满洲里市区。1.2 m 以下儿童、70 岁以上老人、残疾人免票；
+                1.2–1.5 m 儿童、65–69 岁老人、学生、现役军人半价。</td>
         </tr>
         <tr>
-            <td>满洲里套娃景区</td><td>10.2</td>
-            <td><strong>100 元</strong></td><td>—</td>
+            <td>套娃景区</td>
+            <td class="t-sight">🎫 景区</td><td><strong>100 元</strong></td>
         </tr>
+
+        <tr>
+            <td>10.3</td>
+            <td>沿途草原与林区秋色（满洲里→阿尔山）</td>
+            <td class="t-road">🛣️ 路边随停</td><td>—</td><td>随走随停</td>
+            <td>430 km，以赶路为主，早出发。</td>
+        </tr>
+
         <tr class="locked-highlight">
-            <td><strong>阿尔山国家森林公园</strong></td><td>10.3–10.4</td>
-            <td><strong>门票 180 + 观光车 105<br>= 285 元/人</strong><br><u>门票 48 小时有效</u></td>
-            <td><strong>❌ 旺季不能自驾游园</strong><br>5.1–10.31 私家车不得停靠景点，<br>必须换乘观光车</td>
-            <td>导航「阿尔山国家森林公园」。<strong>需提前 1–3 天微信公众号实名预约</strong>。
-                天池、驼峰岭天池、杜鹃湖、石塘林，留足 6–8 h。
-                <strong>💡 住景区内的福利：日出前（需提前向景区报备）可自驾入园</strong>——
-                10.4 拍日出可用。</td>
+            <td>10.4</td>
+            <td><strong>阿尔山国家森林公园</strong></td>
+            <td class="t-sight">🎫 景区</td>
+            <td><strong>门票 180 + 观光车 105<br>= 285 元/人</strong><br><u>48 小时有效</u></td>
+            <td><strong>6–8 h</strong></td>
+            <td><strong>❌ 旺季（5.1–10.31）不能自驾游园</strong>，私家车不得停靠景点，必须换乘观光车。
+                天池、驼峰岭天池、杜鹃湖、石塘林。穿防滑鞋、带保暖外套。
+                <br><strong>💡 住景区内的福利：日出前（需提前向景区报备）可自驾入园</strong> —— 拍日出可用。</td>
         </tr>
+
         <tr>
-            <td>扎龙湿地（可选）</td><td>10.6</td>
-            <td>未查</td><td>—</td>
+            <td>10.6</td>
+            <td>扎龙湿地（可选）</td>
+            <td class="t-sight">🎫 景区</td><td>未查</td><td><strong>1.5–2 h</strong></td>
             <td>齐齐哈尔市扎龙镇。丹顶鹤、秋芦。时间紧可跳过。</td>
         </tr>
     </table>
+
+    <div class="note-box">
+        <strong>🛣️ 10.2 路线说明（值得你决定一下）</strong><br>
+        原方案写的是 <strong>黑山头 → 海拉尔 → 满洲里，约 260 km</strong>（绕内陆）。
+        但 186 彩带河在<strong>边防公路</strong>上，距黑山头仅约 46 km、距满洲里约 110 km——
+        <strong>即沿边防公路直行约 156 km 即可抵满洲里，比绕海拉尔更短，且能捡到彩带河</strong>，
+        相当于把 10.1 的卡线体验再延续一段。
+        <br><br>
+        <strong>但我没有核实这条边防公路的路况与是否全线通行</strong>（原方案绕海拉尔可能正是出于路况或补给考虑）。
+        <u>出发前请向黑山头当地或住宿老板确认；若路况不佳，仍按原方案绕海拉尔，代价是放弃彩带河。</u>
+    </div>
+
     <div class="note-box">
         <strong>两条对行程的实际影响：</strong>
         <ol style="margin:8px 0">
-            <li><strong>阿尔山 48 小时有效票</strong>——10.3 下午抵达时买票，可覆盖 10.4 全天，不必买两次（请以购票时页面说明为准）。</li>
-            <li><strong>莫尔道嘎园区内无区间车</strong>，且门口到白鹿岛逾百公里——这正说明白鹿岛必须占一整天，
-                也印证了 9.27 单独排它是对的。</li>
+            <li><strong>阿尔山 48 小时有效票</strong>——10.3 抵达时购票可覆盖 10.4 全天，不必买两次（以购票页说明为准）。</li>
+            <li><strong>莫尔道嘎园内无区间车</strong>，且门口到白鹿岛逾百公里——这正说明白鹿岛必须占一整天，印证 9.27 单独排它是对的。</li>
         </ol>
-        <strong>价格免责：</strong>以上为 2026 年 9 月网络检索所得<u>参考价</u>，
-        景区常有淡旺季调整与优惠政策。<strong>出发前请以景区官方公众号 / 售票页面为准，不要按此表准备现金。</strong>
+        <strong>价格免责：</strong>以上为 2026 年 9 月网络检索所得<u>参考价</u>，景区常有淡旺季调整与优惠。
+        <strong>出发前请以景区官方公众号 / 售票页面为准，不要按此表准备现金。</strong>
+        标注「未查到」的项目表示我确实没找到可靠来源，不是免费。
     </div>
 
     <h2>行前必读</h2>
